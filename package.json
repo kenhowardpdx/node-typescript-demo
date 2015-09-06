@@ -1,0 +1,26 @@
+{
+  "name": "node-typescript-demo",
+  "version": "1.0.0",
+  "description": "node-typescript-demo",
+  "main": "./src/index.js",
+  "engines": {
+    "node": ">=0.12 <0.13"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "postinstall": "tsd reinstall -so && gulp"
+  },
+  "author": "Ken Howard <kenh@csgpro.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.1",
+    "express-handlebars": "^2.0.1",
+    "nconf": "^0.7.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-typescript": "^2.8.0",
+    "tsd": "^0.6.4"
+  }
+}

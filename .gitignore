@@ -1,0 +1,6 @@
+.settings
+node_modules
+typings/*
+!tsd.d.ts
+!express-handlebars
+src/*.js
